@@ -12,6 +12,30 @@ The datasets used in this project include :
 - NASDAQ100, S&P500 
 - NIFTY500 
 
+## Data Availability
+
+Due to GitHub limits, the full datasets and processed files used in this project are hosted externally.
+
+All data required to reproduce the experiments can be downloaded from:
+
+https://drive.google.com/drive/folders/1j9uTbA72KYqIwOT4pL_lCDB34hsKscvj?usp=sharing
+
+The following files and directories are not included in this repository
+
+Phase-Stock-KG/data/
+
+Phase-Stock-KG/kg/
+
+Stock_KG_TPP/HPGE_pytorch/datas/our_data/hpge_dataset_month.csv
+
+Stock_KG_TPP/HPGE_pytorch/datas/our_data/hpge_dataset_month_nasdaq.csv
+
+Stock_KG_TPP/TPP/train_files/nifty500/month/train_5_5_LP_month_128.csv
+
+
+These paths must be present exactly as shown for the code to run correctly.
+
+
 ## Requirements
 
 python version - 3.9.19
