@@ -1,5 +1,8 @@
 # Learning to Forecast under Dynamic External Influence 
 
+📈 This repository provides a unified framework for forecasting stock returns under dynamic external influences by combining temporal point processes, heterogeneous knowledge graphs, and sequential market embeddings.
+
+
 ## Overview
 This project addresses the challenge of forecasting stock market trends by constructing a **Temporally-Aware Heterogeneous Knowledge Graph (STOCKnowledge)**. STOCKnowledge captures inter-stock relationships, financial statements, analyst sentiments, corporate events, and macroeconomic factors from stock assets listed on India and USA markets. By leveraging time-aware embeddings, this project ranks stock assets based on their potential return on investment over various holding periods.
 
@@ -37,12 +40,12 @@ S&P - sp500
 2. The main parameters include ENCODER_LAYER, which can be set to either "transf" for transfomer or "lstm" for generating sequential embeddings.
 3. For the Graph Convolutions, USE_GRAPH parameter set to hgat, which includes the HEAT Convolution
 4. Set the INDEX in main.py according to the dataset you want to run: nasdaq100, sp500, or nifty500
-4. Ensure the dataset is prepared and placed in the required directory.
-5. Run the command:
+5. Ensure the dataset is prepared and placed in the required directory.
+6. Run the command:
    ```bash
-   python3 main.py 
+   python3 main.py --INDEX nasdaq100
    ```
-6. All remaining parameters are defined in the model_imports.py file.
+7. All remaining parameters are defined in the model_imports.py file.
 
 
 ### Approach 2: With Temporal Point Process
