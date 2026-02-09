@@ -80,3 +80,8 @@ temporal_kg.pkl for NASDAQ and S&P
 
 The temporal embeddings are trained and saved in /Stock_Market_Hawkes/Stock_KG_TPP/TPP/HPP_files/, and are extracted during integration with the main model.
 
+
+
+File Stock_KG_TPP/HPGE_pytorch/datas/our_data/hpge_dataset_month.csv is 167.42 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: File Stock_KG_TPP/HPGE_pytorch/datas/our_data/hpge_dataset_month_nasdaq.csv is 139.50 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: File Stock_KG_TPP/TPP/train_files/nifty500/month/train_5_5_LP_month_128.csv is 446.40 MB; this exceeds GitHub's file size limit of 100.00 MB
